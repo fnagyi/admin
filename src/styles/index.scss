@@ -1,0 +1,33 @@
+
+
+
+// 全局的 样式  golbal css
+
+// css 后缀不能省略   
+// @import "animate.css";
+@import "common";
+@import "./antd.min.css" ; 
+// @import "vant.css";
+// @import "fonts/iconfont.css";
+
+$base_color:yellowgreen;
+$base_font:40px;
+
+html,body,#app,.main{
+    width:100vw;
+    height:100vh;
+}
+
+.h2{
+    color:$base_color;
+    font-size:$base_font;
+}
+
+
+#slider{
+    width:2.666rem;
+    height:2.666rem;
+    background: darkgoldenrod;
+}
+
+

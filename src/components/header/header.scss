@@ -1,0 +1,30 @@
+.header{
+    background: #fff;
+    .headerTop{
+        height: 40px; 
+        line-height: 40px;
+        border-bottom: 2px solid #1da57a;
+        overflow: hidden;
+        span{
+            float: right;
+            margin-right: 20px;
+        }
+        p{
+            float: right;
+            margin-right: 50px;
+            color: #1da57a
+        }
+    }
+
+    .classify{
+        height: 40px;
+        p{
+            float: left ; 
+            font-size: 20px;
+            margin-left: 100px;
+            line-height: 40px;
+        }
+    }
+
+
+}
